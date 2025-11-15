@@ -30,7 +30,7 @@ jobs:
           if [ "$BRANCH" == "main" ]; then
             ENV_LOWER="prod"
           else
-            ENV_LOWER="test"
+            ENV_LOWER="develop"
           fi
           ENV_UPPER=$(echo "$ENV_LOWER" | tr '[:lower:]' '[:upper:]')
 
