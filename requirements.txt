@@ -1,0 +1,11 @@
+# Core
+torch==2.2.2
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# Experiment tracking
+mlflow==2.14.1
+
+# Visualización y gráficos
+matplotlib==3.9.2
